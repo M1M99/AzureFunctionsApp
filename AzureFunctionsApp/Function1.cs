@@ -18,7 +18,7 @@ namespace AzureFunctionsApp
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Admin, "get", "post","put")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            var name = req.Query["name1"];
+            var name = req.Query["name"];
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
@@ -30,7 +30,7 @@ namespace AzureFunctionsApp
         public HttpResponseData Run2([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post","put")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            var name = req.Query["name1"];
+            var name = req.Query["name"];
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
@@ -42,7 +42,7 @@ namespace AzureFunctionsApp
         public HttpResponseData Run3([HttpTrigger(AuthorizationLevel.Function, "get", "post","put")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
-            var name = req.Query["name1"];
+            var name = req.Query["name"];
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
