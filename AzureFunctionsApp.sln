@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsApp", "AzureFunctionsApp\AzureFunctionsApp.csproj", "{14B125D4-F454-4F61-8063-73483AF4EF29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B125D4-F454-4F61-8063-73483AF4EF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B125D4-F454-4F61-8063-73483AF4EF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B125D4-F454-4F61-8063-73483AF4EF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B125D4-F454-4F61-8063-73483AF4EF29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86007191-7106-4EDA-B35F-344AD51F1992}
+	EndGlobalSection
+EndGlobal
