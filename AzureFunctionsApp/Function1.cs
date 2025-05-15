@@ -51,7 +51,7 @@ namespace AzureFunctionsApp
                 var mail = new MailMessage(senderEmail, email)
                 {
                     Subject = $"Hi, {name}",
-                    Body = $"Salam {name}, Written Azure Company"
+                    Body = $"Salam {name}, Written By Azure Company"
                 };
 
                 using var smtpClient = new SmtpClient(smtpServer, smtpPort)
